@@ -1,18 +1,33 @@
 # Internship-Preparation-Module
 
-Objective:
-To build a practical system for collecting, processing, and visualizing real-time environmental data using IoT technologies and automation tools.
+Overview:
+During the pre-practice program, I developed an IoT-based system integrating multiple technologies to monitor and visualize environmental data in real time. The project focused on collecting temperature and air pollution data for Bucharest, processing it, and presenting actionable insights using modern tools like Grafana, Node-RED, and blockchain.
 
-Description:
-During this project, I created a system that monitors temperature and air pollution in Bucharest. Data was collected using an API, processed with Node-RED, and visualized on Grafana dashboards. The system also featured notifications sent via email and Telegram when specific thresholds were exceeded.
+Key Activities:
+	1.	IoT and MQTT Integration:
+	•	Configured an MQTT broker to publish temperature and air pollution data using an API from OpenWeatherMap.
+	•	Enabled bi-directional communication for real-time data updates.
+	2.	Node-RED Development:
+	•	Utilized Node-RED for flow-based data processing.
+	•	Created a pipeline for data retrieval, processing, and publishing back to the MQTT broker.
+	3.	Data Visualization in Grafana:
+	•	Connected Grafana to InfluxDB to visualize real-time environmental metrics.
+	•	Set up alert systems to notify users when specific conditions were met via email.
+	4.	Telegram Chatbot Implementation:
+	•	Developed a chatbot to query environmental data and provide instant updates.
+	•	Used Python for bot commands and API integration.
+	5.	Blockchain Application:
+	•	Experimented with smart contracts on a test blockchain platform to automate actions based on data thresholds.
+	6.	Dockerized Deployment:
+	•	Created a Docker image for deploying an ArrowHead-based component.
+	•	Used containerization to ensure consistency across different environments.
 
-I set up an MQTT broker to handle real-time data transmission and used InfluxDB as the database for storing the collected data. Additionally, I experimented with blockchain technology, implementing smart contracts that could trigger automated actions based on specific conditions, such as high temperatures.
-
-Key Technologies:
-	•	Programming: Python, JavaScript
-	•	Tools: Grafana, Node-RED, Docker, Telegram API
-	•	Protocols: MQTT
-	•	Database: InfluxDB
+Technologies Used:
+	•	Programming Languages: Python, JavaScript.
+	•	Tools: Node-RED, Grafana, Telegram API, Docker.
+	•	Protocols: MQTT.
+	•	Databases: InfluxDB.
+	•	Blockchain Platform: MultiversX Testnet.
 
 Impact:
-This project helped me gain hands-on experience in IoT, real-time data processing, and system integration, while exploring advanced tools like blockchain and containerization for practical applications.
+The project demonstrated the potential of integrating IoT, real-time data visualization, and automation technologies to solve environmental monitoring challenges efficiently. It also provided valuable insights into cross-platform tool integration and scalability.
